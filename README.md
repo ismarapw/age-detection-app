@@ -12,8 +12,8 @@ This is an implementation of my undergraduate thesis project where i built a web
 8. Azure Web Service
 
 # Current Limitation
-1. The face contained in an image is limited to one face. If you upload an image containing multiple faces, it will only detect and predict the first face.
-2. Sometimes the face is not detected properly in the image. This is depends on many factors such as clarity of the background, lighting, face angle, and the distane of the face from camera.
+1. The contained face in an image is limited to one face. If you upload an image containing multiple faces, it will only detect and predict the first face.
+2. Sometimes the face is not detected properly in the image. This depends on many factors such as clarity of the background, lighting, face angle, and the distane of the face from camera.
 
 # Local Test
 I'm using python 3.11 for the server-side development and using windows 11. If you have the same environment with mine, you can simply clone this repo and inside the project you can do the following:
