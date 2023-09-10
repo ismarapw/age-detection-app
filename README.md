@@ -15,6 +15,19 @@ This is an implementation of my undergraduate thesis project where i built a web
 1. The face contained in an image is limited to one face. If you upload an image containing multiple faces, it will only detect and predict the first face.
 2. Sometimes the face is not detected properly in the image. This is depends on many factors such as clarity of the background, lighting, face angle, and the distane of the face from camera.
 
+# Local Test
+I'm using python 3.11 for the server-side development and using windows 11. If you have the same environment with mine, you can simply clone this repo and inside the project you can do the following:
+
+```bash
+python -m venv env # Create env
+
+env\Scripts\activate # Activing env
+
+pip install -r requirements.txt # install all of the depedencies
+
+python run.py # run the flask-server
+``` 
+
 # Snapshots
 ![Screenshot (5)](https://github.com/ismarapw/age-detection-app/assets/76652264/308d1277-3be5-46ac-936e-660cea0aafdc)
 ![Screenshot (6)](https://github.com/ismarapw/age-detection-app/assets/76652264/b66a39ad-96b2-45dc-9c34-c2b9755c3e80)
