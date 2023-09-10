@@ -157,7 +157,7 @@ function Main () {
 			if(data.status === 'success'){
 				setFaceIsNotExist(false);
 				setProbResult(data.probabilities);
-				setFaceimg('http://192.168.43.199:5000/download/' + data.face_img)
+				setFaceimg('http://ismarwebserver.eastus.cloudapp.azure.com/download/' + data.face_img)
 			}else if (data.status === 'no face') {
 				setFaceIsNotExist(true);
 			}
